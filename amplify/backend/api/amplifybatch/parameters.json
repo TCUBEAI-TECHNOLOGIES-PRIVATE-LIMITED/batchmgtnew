@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "amplifybatch",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-12-23T10:28:35.706Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifybatch1dcbb322",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
